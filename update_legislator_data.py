@@ -36,7 +36,6 @@ def update_legislator_data(mcatts_file, legislators_file, output_file):
                 # Update the name, state, and statenm columns
                 mcatts_updated.at[index, 'mc.name'] = match.iloc[0]['name']
                 mcatts_updated.at[index, 'state'] = match.iloc[0]['state']
-                mcatts_updated.at[index, 'statenm'] = match.iloc[0]['state']
             else:
                 # Add to non-matches list
                 non_matches.append((row['id'], row['cong'], row['mc.name']))
