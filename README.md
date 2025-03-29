@@ -1,6 +1,6 @@
 To run this script:
 
-Save the code above as a Python file (e.g., process_data.py).
+Save the code above as a Python file (e.g., update_legislator_data.py).
 
 Make sure you have pandas installed (pip install pandas).
 
